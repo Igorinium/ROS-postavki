@@ -34,16 +34,75 @@
 						<div class="header__telephone">+7 (343) 328-10-15</div>
 						<a href="#" class="call-order">Заказать звонок</a>
 					</div>
-					<div class="header__icons">
-						<div class="liked _header__icon">
-							<div class="circle-with-number">1</div><img src="img/svg/hart.svg" alt="">
+					<div class="like _header__icon">
+						<div class="header__like">
+							<div class="circle-with-number _like__circle-with-number">1</div>
+							<img src="img/svg/hart.svg" alt="">
 						</div>
-						<div class="shopping-card _header__icon">
-							<div class="circle-with-number">1</div>
-							<img src="img/svg/shopping-cart.svg" alt="">
+						<div class="like-content">
+							<p class="like-content__message">
+								Нет понравившихся товаров
+							</p>
+							<ul class="like-content__list">
+								<!-- <li class="like-content__item">
+									<article class="like-product _like-content__product">
+										<img src="img/products/1.png" alt="" class="like-product__img">
+										<div class="like-product__text">
+											<h3 class="like-product__title">Кассовый аппарат КМ Меркурий-115Ф с ФН 15 мес
+											</h3>
+											<span class="like-product__price">12 500 ₽</span>
+										</div>
+										<button class="like-product__delete" aria-label="Удалить товар">X</button>
+									</article>
+								</li> -->
+							</ul>
+							<button class="like-btn">Добавить в корзину</button>
 						</div>
-						<div class="price">0 ₽</div>
 					</div>
+
+					<!-- Корзина -->
+
+					<div class="cart">
+						<div class="header__cart">
+							<div class="cart__icon _header__icon">
+								<div class="circle-with-number _cart__circle-with-number">1</div>
+								<img src="img/svg/shopping-cart.svg" alt="">
+							</div>
+							<div class="full-price _header__cart-price">0 ₽</div>
+						</div>
+						<div class="cart-content">
+							<ul class="cart-content__list">
+								<!-- <li class="cart-content__item">
+									<article class="cart-product _cart-content__product">
+										<img src="img/products/1.png" alt="" class="cart-product__img">
+										<div class="cart-product__text">
+											<h3 class="cart-product__title">Кассовый аппарат КМ Меркурий-115Ф с ФН 15 мес
+											</h3>
+											<span class="cart-product__price">12 500 ₽</span>
+										</div>
+										<button class="cart-product__delete" aria-label="Удалить товар">X</button>
+									</article>
+								</li> -->
+							</ul>
+							<div class="cart__info">
+								<div class="cart__info-row">
+									<span class="cart__info-description">В корзине:</span>
+									<span class="cart__quantity">0 товаров</span>
+								</div>
+								<div class="cart__info-row">
+									<span class="cart__info-description">На сумму:</span>
+									<span class="full-price _cart__full-price">0 ₽</span>
+								</div>
+							</div>
+							<div class="cart__buttons">
+								<button class="cart-btn _make-order">Оформить заказ</button>
+								<a href="#" class="cart-btn _go-to-cart">Перейти в корзину</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Корзина -->
+
 				</div>
 				<div class="header-bottom">
 					<details class="header__catalog">
@@ -757,8 +816,8 @@
 						<details class="buy__dropdown-menu" open>
 							<summary>Хит</summary>
 							<div id="goods" class="buy__products">
-								<div class="buy__products-wrapper">
-									<a href="#" class="buy__products-item">
+								<article class="product">
+									<a href="#" class="product__link">
 										<img src="img/products/1.png" alt="">
 										<p class="buy__products-name">Меркурий</p>
 										<div class="space-for-text">
@@ -766,15 +825,14 @@
 											<p class="articul">Артикул: 1005031</p>
 										</div>
 										<div class="buy-product-price">12 500 ₽</div>
-
 									</a>
 									<div class="buy__buttons">
-										<div class="in-cart">В корзину</div>
-										<div class="like"> <img src="img/svg/like.svg" alt=""></div>
+										<button class="product__btn">В корзину</button>
+										<button class="product__like-btn"><img src="img/svg/like.svg" alt=""></button>
 									</div>
-								</div>
-								<div class="buy__products-wrapper">
-									<a href="#" class="buy__products-item">
+								</article>
+								<article class="product">
+									<a href="#" class="product__link">
 										<img src="img/products/2.png" alt="">
 										<p class="buy__products-name">Атол</p>
 										<div class="space-for-text">
@@ -782,15 +840,14 @@
 											<p class="articul">Артикул: 1006228</p>
 										</div>
 										<div class="buy-product-price">18 450 ₽</div>
-
 									</a>
 									<div class="buy__buttons">
-										<div class="in-cart">В корзину</div>
-										<div class="like"> <img src="img/svg/like.svg" alt=""></div>
+										<button class="product__btn">В корзину</button>
+										<button class="product__like-btn"> <img src="img/svg/like.svg" alt=""></button>
 									</div>
-								</div>
-								<div class="buy__products-wrapper">
-									<a href="#" class="buy__products-item">
+								</article>
+								<article class="product">
+									<a href="#" class="product__link">
 										<img src="img/products/3.png" alt="">
 										<p class="buy__products-name">Атол</p>
 										<div class="space-for-text">
@@ -798,15 +855,14 @@
 											<p class="articul">Артикул: 1010245</p>
 										</div>
 										<div class="buy-product-price">90 826 ₽</div>
-
 									</a>
 									<div class="buy__buttons">
-										<div href="#" class="in-cart">В корзину</div>
-										<div href="#" class="like"> <img src="img/svg/like.svg" alt=""></div>
+										<button class="product__btn">В корзину</button>
+										<button class="product__like-btn"> <img src="img/svg/like.svg" alt=""></button>
 									</div>
-								</div>
-								<div class="buy__products-wrapper">
-									<a href="#" class="buy__products-item">
+								</article>
+								<article class="product">
+									<a href="#" class="product__link">
 										<img src="img/products/4.png" alt="">
 										<p class="buy__products-name">CAS</p>
 										<div class="space-for-text">
@@ -816,12 +872,12 @@
 										<div class="buy-product-price">7 472 ₽</div>
 									</a>
 									<div class="buy__buttons">
-										<div class="in-cart">В корзину</div>
-										<div class="like"> <img src="img/svg/like.svg" alt=""></div>
+										<button class="product__btn">В корзину</button>
+										<button class="product__like-btn"> <img src="img/svg/like.svg" alt=""></button>
 									</div>
-								</div>
-								<div class="buy__products-wrapper">
-									<a href="#" class="buy__products-item">
+								</article>
+								<article class="product">
+									<a href="#" class="product__link">
 										<img src="img/products/5.png" alt="">
 										<p class="buy__products-name">МАССА-К</p>
 										<div class="space-for-text">
@@ -831,10 +887,10 @@
 										<div class="buy-product-price">22 300 ₽</div>
 									</a>
 									<div class="buy__buttons">
-										<div class="in-cart">В корзину</div>
-										<div class="like"> <img src="img/svg/like.svg" alt=""></div>
+										<button class="product__btn">В корзину</button>
+										<button class="product__like-btn"><img src="img/svg/like.svg" alt=""></button>
 									</div>
-								</div>
+								</article>
 							</div>
 						</details>
 						<details class="buy__dropdown-menu">
@@ -1149,6 +1205,8 @@
 	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 	<script src="js/script.js"></script>
+	<script src="js/like.js"></script>
+	<script src="js/cart.js"></script>
 </body>
 
 </html>

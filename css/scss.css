@@ -732,6 +732,19 @@ details[open] ul {
   border-left: 1px solid #e3e6ec;
 }
 
+.header__catalog-items-link {
+  display: block;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.header__catalog-items-link:hover {
+  color: #e31f1a;
+  text-decoration: underline;
+}
+
 .about {
   height: 569px;
   background: url("../img/bg.png") 0 0/cover no-repeat;
@@ -1123,9 +1136,12 @@ details[open] ul {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 0 -2px;
   -webkit-column-gap: 20px;
           column-gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
 }
 
 .buy__products-name {

@@ -186,6 +186,7 @@ h6 {
 }
 
 .header__telephone {
+  color: #000;
   white-space: nowrap;
   font-weight: 500;
   font-size: 18px;

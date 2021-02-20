@@ -58,8 +58,13 @@ likeProductsList.addEventListener('click', (e) => {
 });
 
 
-$(document).ready(function () {
-	$('.like-btn').click(function (event) {
-		console.log("Лалал");
-	});
-});
+// $(document).ready(function () {
+// 	$('.like-btn').click(function (event) {
+// 		let i = likeProductsList.children.length;
+// 		while (i > 0) {
+// 			i--;
+// 			let id = likeProductsList.childNodes.querySelector('.like-product').dataset.id;
+// 			console.log(id);
+// 		};
+// 	});
+// });

@@ -1,0 +1,1742 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+	<title>РОСпоставки</title>
+
+	<link rel="stylesheet" href="css/scss.css">
+
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial scale=1.0, maximum scale=1.0, user-scalable=0" />
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="_container">
+				<div class="header-top">
+					<div class="header__logo">
+						<img src="img/svg/logo.svg" alt="Логотип">
+					</div>
+					<form class="header__search" method="get">
+						<input type="search" name="search" placeholder="Поиск по сайту">
+						<img src="img/svg/search.svg" alt="" class="search-icon">
+					</form>
+					<div class="header__contacts">
+						<div class="header__telephone">+7 (922) 125-87-87</div>
+						<div class="header__mail">ural@ros-kkm.ru</div>
+					</div>
+					<div class="header__contacts">
+						<div class="header__telephone">+7 (343) 328-10-15</div>
+						<a href="#" class="call-order">Заказать звонок</a>
+					</div>
+					<div class="like _header__icon">
+						<div class="header__like">
+							<div class="circle-with-number _like__circle-with-number">1</div>
+							<img src="img/svg/hart.svg" alt="">
+						</div>
+						<div class="like-content">
+							<p class="like-content__message">
+								Нет понравившихся товаров
+							</p>
+							<ul class="like-content__list">
+								<!-- <li class="like-content__item">
+									<article class="like-product _like-content__product">
+										<img src="img/products/1.png" alt="" class="like-product__img">
+										<div class="like-product__text">
+											<h3 class="like-product__title">Кассовый аппарат КМ Меркурий-115Ф с ФН 15 мес
+											</h3>
+											<span class="like-product__price">12 500 ₽</span>
+										</div>
+										<button class="like-product__delete" aria-label="Удалить товар">X</button>
+									</article>
+								</li> -->
+							</ul>
+							<button class="like-btn">Добавить в корзину</button>
+						</div>
+					</div>
+
+					<!-- Корзина -->
+
+					<div class="cart">
+						<div class="header__cart">
+							<div class="cart__icon _header__icon">
+								<div class="circle-with-number _cart__circle-with-number">1</div>
+								<img src="img/svg/shopping-cart.svg" alt="">
+							</div>
+							<div class="full-price _header__cart-price">0 ₽</div>
+						</div>
+						<div class="cart-content">
+							<ul class="cart-content__list">
+								<!-- <li class="cart-content__item">
+									<article class="cart-product _cart-content__product">
+										<img src="img/products/1.png" alt="" class="cart-product__img">
+										<div class="cart-product__text">
+											<h3 class="cart-product__title">Кассовый аппарат КМ Меркурий-115Ф с ФН 15 мес
+											</h3>
+											<span class="cart-product__price">12 500 ₽</span>
+										</div>
+										<button class="cart-product__delete" aria-label="Удалить товар">X</button>
+									</article>
+								</li> -->
+							</ul>
+							<div class="cart__info">
+								<div class="cart__info-row">
+									<span class="cart__info-description">В корзине:</span>
+									<span class="cart__quantity">0 товаров</span>
+								</div>
+								<div class="cart__info-row">
+									<span class="cart__info-description">На сумму:</span>
+									<span class="full-price _cart__full-price">0 ₽</span>
+								</div>
+							</div>
+							<div class="cart__buttons">
+								<button class="cart-btn _make-order">Оформить заказ</button>
+								<a href="#" class="cart-btn _go-to-cart">Перейти в корзину</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Корзина -->
+
+				</div>
+				<div class="header-bottom">
+					<details class="header__catalog">
+						<summary class="header__catalog-title"><img src="img/svg/menu-left-alt.svg" alt="">
+							Каталог
+							товаров</summary>
+						<ul class="header__catalog-items">
+							<li>
+								<details class="header__catalog-item">
+									<summary class="header__catalog-item-title">
+										<a href="#">Кассовое и торговое оборудование</a>
+									</summary>
+									<ul class="header__catalog-items _2st-lvl">
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Электронные весы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Весовые индикаторы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Тензометрические датчики силы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Аксессуары</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Невские весы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+
+												</ul>
+											</details>
+										</li>
+									</ul>
+								</details>
+							</li>
+
+							<li>
+								<details class="header__catalog-item">
+									<summary class="header__catalog-item-title">
+										<a href="#">Весовое оборудование</a>
+									</summary>
+									<ul class="header__catalog-items _2st-lvl">
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Электронные весы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Весовые индикаторы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Тензометрические датчики силы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Аксессуары</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Невские весы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+									</ul>
+								</details>
+							</li>
+							<li>
+								<details class="header__catalog-item">
+									<summary class="header__catalog-item-title">
+										<a href="#">Штрих-кодирование и идентификация</a>
+									</summary>
+									<ul class="header__catalog-items _2st-lvl">
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Электронные весы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Весовые индикаторы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Тензометрические датчики силы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Аксессуары</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Невские весы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+									</ul>
+								</details>
+							</li>
+							<li>
+								<details class="header__catalog-item">
+									<summary class="header__catalog-item-title">
+										<a href="#">Банковское оборудование</a>
+									</summary>
+									<ul class="header__catalog-items _2st-lvl">
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Электронные весы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Весовые индикаторы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Тензометрические датчики силы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Аксессуары</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Невские весы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+									</ul>
+								</details>
+							</li>
+							<li>
+								<details class="header__catalog-item">
+									<summary class="header__catalog-item-title">
+										<a href="#">Программное оборудование</a>
+									</summary>
+									<ul class="header__catalog-items _2st-lvl">
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Электронные весы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Весовые индикаторы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Тензометрические датчики силы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Аксессуары</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Невские весы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+									</ul>
+								</details>
+							</li>
+
+							<li>
+								<details class="header__catalog-item">
+									<summary class="header__catalog-item-title">
+										<a href="#">Офисное оборудование</a>
+									</summary>
+									<ul class="header__catalog-items _2st-lvl">
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Электронные весы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Весовые индикаторы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Тензометрические датчики силы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Аксессуары</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Невские весы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+									</ul>
+								</details>
+							</li>
+							<li>
+								<details class="header__catalog-item">
+									<summary class="header__catalog-item-title">
+										<a href="#">Постпечатное оборудование</a>
+									</summary>
+									<ul class="header__catalog-items _2st-lvl">
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Электронные весы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Весовые индикаторы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Тензометрические датчики силы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Аксессуары</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Невские весы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+									</ul>
+								</details>
+							</li>
+							<li>
+								<details class="header__catalog-item">
+									<summary class="header__catalog-item-title">
+										<a href="#">Пищевое оборудование</a>
+									</summary>
+									<ul class="header__catalog-items _2st-lvl">
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Электронные весы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Весовые индикаторы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Тензометрические датчики силы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Аксессуары</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Невские весы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+									</ul>
+								</details>
+							</li>
+							<li>
+								<details class="header__catalog-item">
+									<summary class="header__catalog-item-title">
+										<a href="#">Оборудование комплексной безопасности</a>
+									</summary>
+									<ul class="header__catalog-items _2st-lvl">
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Электронные весы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Весовые индикаторы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Тензометрические датчики силы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Аксессуары</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Невские весы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+									</ul>
+								</details>
+							</li>
+							<li>
+								<details class="header__catalog-item">
+									<summary class="header__catalog-item-title">
+										<a href="#">Маски</a>
+									</summary>
+									<ul class="header__catalog-items _2st-lvl">
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Электронные весы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Весовые индикаторы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Тензометрические датчики силы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Аксессуары</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+													<li><a href="#" class="header__catalog-items-link">
+															Кассовый аппарат ККМ АТОЛ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Электронная трубка ШЕКЕЛЯ
+														</a></li>
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+										<li>
+											<details class="header__catalog-item">
+												<summary class="header__catalog-item-title">
+													<a href="#">Невские весы</a>
+												</summary>
+												<ul class="header__catalog-items _2st-lvl	">
+
+													<li><a href="#" class="header__catalog-items-link">
+															Вот и такое бывает)
+														</a></li>
+												</ul>
+											</details>
+										</li>
+									</ul>
+								</details>
+							</li>
+						</ul>
+					</details>
+					<nav class="header-bottom__nav">
+						<div class="nav-item"><a href="#">О нас</a></div>
+						<div class="nav-item"><a href="#">Услуги</a></div>
+						<div class="nav-item"><a href="#">Статьи</a></div>
+						<div class="nav-item"><a href="#">Доставка</a></div>
+						<div class="nav-item"><a href="#">Отзывы</a></div>
+						<div class="nav-item"><a href="#">Розничный материал</a></div>
+						<div class="nav-item"><a href="#">Контакты</a></div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<div class="about">
+			<div class="about__container _container">
+				<div class="image-slider swiper-container">
+					<!-- Слайдер -->
+					<div class="image-slider__wrapper swiper-wrapper">
+						<div class="image-slider__slide swiper-slide">
+							<div class="image-slider__text-block">
+								<a href="#" class="image-slider__gift">
+									<img src="img/svg/giftbox.svg" alt="">
+									<span>Бесплатное тех.сопровождение</span>
+								</a>
+								<h2>Мы сами приедем к Вам с кассой</h2>
+								<p>Все настроим, зарегестрируем, обучим!</p>
+								<a class="image-slider__btn" href="#">Получить консультацию</a>
+							</div>
+							<div class="image-slider__image">
+								<img src="img/slider-pic1.png" alt="Картинка">
+							</div>
+						</div>
+						<div class="image-slider__slide swiper-slide">
+							<div class="image-slider__text-block">
+								<a href="#" class="image-slider__gift">
+									<img src="img/svg/giftbox.svg" alt="">
+									<span>Бесплатное тех.сопровождение</span>
+								</a>
+								<h2>Мы сами приедем к Вам с кассой</h2>
+								<p>Все настроим, зарегестрируем, обучим!</p>
+								<a class="image-slider__btn" href="#">Получить консультацию</a>
+							</div>
+							<div class="image-slider__image">
+								<img src="img/slider-pic1.png" alt="Картинка">
+							</div>
+						</div>
+					</div>
+					<!-- Добавляем если нам нужны стрелки управления -->
+					<div class="slider-button-prev _about__slider-button-prev"><img src="img/svg/swiper-button1.svg" alt="">
+					</div>
+					<div class="slider-button-next _about__slider-button-next"><img src="img/svg/swiper-button2.svg" alt="">
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+		<div class="under-about">
+			<div class="_container">
+				<div class="under-about__body">
+					<div class="under-about__item">
+						<div class="under-about__icon-item"><img src="img/svg/adv_icon1.svg" alt=""></div>
+						<p>Мы работаем круглосуточно</p>
+					</div>
+					<div class="under-about__item">
+						<div class="under-about__icon-item"><img src="img/svg/adv_icon2.svg" alt=""></div>
+						<p>Доставка по всей России от 300 руб
+						</p>
+					</div>
+					<div class="under-about__item">
+						<div class="under-about__icon-item"><img src="img/svg/adv_icon3.svg" alt=""></div>
+						<p>Каждому покупателю подарок</p>
+					</div>
+					<div class="under-about__item">
+						<div class="under-about__icon-item"><img src="img/svg/adv_icon4.svg" alt=""></div>
+						<p>Мы принимаем кредитные карты</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="catalog">
+			<div class="_container">
+				<h2>Каталог</h2>
+				<div class="catalog__body">
+					<a href="#" class="catalog__card">
+						<div class="catalog__card-text">
+							<h3>Кассовое и торговое<br>оборудование</h3>
+							<p>Значимость этих проблем настолько очевидна, что современная методология разработки выявляет
+								срочную
+								потребность</p>
+							<span class="come-in">В каталог</span>
+						</div>
+						<div class="catalog__card-image">
+							<img src="img/catalog/1.png" alt="">
+						</div>
+					</a>
+					<a href="#" class="catalog__card">
+						<div class="catalog__card-text">
+							<h3>Весовое оборудование</h3>
+							<p>Господа, современная методология разработки однозначно фиксирует необходимость модели развития.
+							</p>
+							<span class="come-in">В каталог</span>
+						</div>
+						<div class="catalog__card-image">
+							<img src="img/catalog/2.png" alt="">
+						</div>
+					</a>
+					<a href="#" class="catalog__card">
+						<div class="catalog__card-text">
+							<h3>Штрих-кодирование<br>и идентификация</h3>
+							<p>В целом, конечно, сплочённость команды профессионалов позволяет выполнить важные задания по
+								разработке поэтапного</p>
+							<span class="come-in">В каталог</span>
+						</div>
+						<div class="catalog__card-image">
+							<img src="img/catalog/3.png" alt="">
+						</div>
+					</a>
+					<a href="#" class="catalog__card">
+						<div class="catalog__card-text">
+							<h3>Банковское борудование</h3>
+							<p>Таким образом, выбранный нами инновационный путь, в своём классическом представлении</p>
+							<span class="come-in">В каталог</span>
+						</div>
+						<div class="catalog__card-image">
+							<img src="img/catalog/4.png" alt="">
+						</div>
+					</a>
+					<a href="#" class="catalog__card">
+						<div class="catalog__card-text">
+							<h3>Расходные материалы</h3>
+							<p>Господа, современная методология разработки однозначно фиксирует необходимость модели развития.
+							</p>
+							<span class="come-in">В каталог</span>
+						</div>
+						<div class="catalog__card-image">
+							<img src="img/catalog/5.png" alt="">
+						</div>
+					</a>
+					<a href="#" class="catalog__card">
+						<div class="catalog__card-text">
+							<h3>Программное обеспечение</h3>
+							<p>В целом, конечно, сплочённость команды профессионалов позволяет выполнить важные задания по
+								разработке поэтапного</p>
+							<span class="come-in">В каталог</span>
+						</div>
+						<div class="catalog__card-image">
+							<img src="img/catalog/6.png" alt="">
+						</div>
+					</a>
+					<a href="#" class="catalog__card">
+						<div class="catalog__card-text">
+							<h3>Офисное оборудование</h3>
+							<p>Таким образом, выбранный нами инновационный путь, в своём классическом представлении</p>
+							<span class="come-in">В каталог</span>
+						</div>
+						<div class="catalog__card-image">
+							<img src="img/catalog/7.png" alt="">
+						</div>
+					</a>
+					<a href="#" class="catalog__card">
+						<div class="catalog__card-text">
+							<h3>Постпечатное оборудование</h3>
+							<p>В целом, конечно, сплочённость команды профессионалов позволяет выполнить</p>
+							<span class="come-in">В каталог</span>
+						</div>
+						<div class="catalog__card-image">
+							<img src="img/catalog/8.png" alt="">
+						</div>
+					</a>
+					<a href="#" class="catalog__card">
+						<div class="catalog__card-text">
+							<h3>Пищевое оборудование</h3>
+							<p>Таким образом, выбранный нами инновационный путь, в своём классическом представлении</p>
+							<span class="come-in">В каталог</span>
+						</div>
+						<div class="catalog__card-image">
+							<img src="img/catalog/9.png" alt="">
+						</div>
+					</a>
+					<a href="#" class="catalog__card">
+						<div class="catalog__card-text">
+							<h3>Оборудование комплексной безопасности</h3>
+							<p>Значимость этих проблем настолько очевидна, что современная методология разработки выявляет
+								срочную
+								потребность</p>
+							<span class="come-in">В каталог</span>
+						</div>
+						<div class="catalog__card-image">
+							<img src="img/catalog/10.png" alt="">
+						</div>
+					</a>
+					<a href="#" class="catalog__card">
+						<div class="catalog__card-text">
+							<h3>Маски</h3>
+							<p>В целом, конечно, сплочённость команды профессионалов позволяет выполнить</p>
+							<span class="come-in">В каталог</span>
+						</div>
+						<div class="catalog__card-image">
+							<img src="img/catalog/11.png" alt="">
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="buy">
+			<div class="_container">
+				<h3>Купить контрольно кассовое оборудование, купить ккт, онлайн кассу для ИП в Екатеринбурге. Магазин
+					кассовых аппаратов</h3>
+				<div class="buy__body">
+					<div class="buy__dropdown-menues">
+						<details class="buy__dropdown-menu" open>
+							<summary>Хит</summary>
+							<div id="goods" class="buy__products">
+								<article class="product">
+									<a href="#" class="product__link">
+										<img src="img/products/1.png" alt="">
+										<p class="buy__products-name">Меркурий</p>
+										<div class="space-for-text">
+											<h4>Кассовый аппарат КМ Меркурий-115Ф с ФН 15 мес</h4>
+											<p class="articul">Артикул: 1005031</p>
+										</div>
+										<div class="buy-product-price">12 500 ₽</div>
+									</a>
+									<div class="buy__buttons">
+										<button class="product__btn">В корзину</button>
+										<button class="product__like-btn"><img src="img/svg/like.svg" alt=""></button>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" class="product__link">
+										<img src="img/products/2.png" alt="">
+										<p class="buy__products-name">Атол</p>
+										<div class="space-for-text">
+											<h4>Кассовый аппарат ККМ АТОЛ 92Ф ФН 1.1. 36 мес черная</h4>
+											<p class="articul">Артикул: 1006228</p>
+										</div>
+										<div class="buy-product-price">18 450 ₽</div>
+									</a>
+									<div class="buy__buttons">
+										<button class="product__btn">В корзину</button>
+										<button class="product__like-btn"> <img src="img/svg/like.svg" alt=""></button>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" class="product__link">
+										<img src="img/products/3.png" alt="">
+										<p class="buy__products-name">Атол</p>
+										<div class="space-for-text">
+											<h4>POS-система ForPOSt Супермаркет 8"Счастливый</h4>
+											<p class="articul">Артикул: 1010245</p>
+										</div>
+										<div class="buy-product-price">90 826 ₽</div>
+									</a>
+									<div class="buy__buttons">
+										<button class="product__btn">В корзину</button>
+										<button class="product__like-btn"> <img src="img/svg/like.svg" alt=""></button>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" class="product__link">
+										<img src="img/products/4.png" alt="">
+										<p class="buy__products-name">CAS</p>
+										<div class="space-for-text">
+											<h4>Порционные весы CAS SW-II 20</h4>
+											<p class="articul">Артикул: 160102470</p>
+										</div>
+										<div class="buy-product-price">7 472 ₽</div>
+									</a>
+									<div class="buy__buttons">
+										<button class="product__btn">В корзину</button>
+										<button class="product__like-btn"> <img src="img/svg/like.svg" alt=""></button>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" class="product__link">
+										<img src="img/products/5.png" alt="">
+										<p class="buy__products-name">МАССА-К</p>
+										<div class="space-for-text">
+											<h4>Весы с термопринтером Масса-К ПМ-32.2-Ф1</h4>
+											<p class="articul">Артикул: 16080314</p>
+										</div>
+										<div class="buy-product-price">22 300 ₽</div>
+									</a>
+									<div class="buy__buttons">
+										<button class="product__btn">В корзину</button>
+										<button class="product__like-btn"><img src="img/svg/like.svg" alt=""></button>
+									</div>
+								</article>
+							</div>
+						</details>
+						<details class="buy__dropdown-menu">
+							<summary>Акции</summary>
+							<div id="goods" class="buy__products">
+
+								<article class="product">
+									<a href="#" class="product__link">
+										<img src="img/catalog/2.png" alt="">
+										<p class="buy__products-name">Атол</p>
+										<div class="space-for-text">
+											<h4>Блендер ККМ АТОЛ 92Ф ФН 1.1. 36 мес черная</h4>
+											<p class="articul">Артикул: 1006228</p>
+										</div>
+										<div class="buy-product-price">10 000 ₽</div>
+									</a>
+									<div class="buy__buttons">
+										<button class="product__btn">В корзину</button>
+										<button class="product__like-btn"> <img src="img/svg/like.svg" alt=""></button>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" class="product__link">
+										<img src="img/catalog/6.png" alt="">
+										<p class="buy__products-name">Кувалда</p>
+										<div class="space-for-text">
+											<h4>POS-система ForPOSt Супермаркет 8"Счастливый</h4>
+											<p class="articul">Артикул: 1010245</p>
+										</div>
+										<div class="buy-product-price">77 777 ₽</div>
+									</a>
+									<div class="buy__buttons">
+										<button class="product__btn">В корзину</button>
+										<button class="product__like-btn"> <img src="img/svg/like.svg" alt=""></button>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" class="product__link">
+										<img src="img/catalog/11.png" alt="">
+										<p class="buy__products-name">Маска</p>
+										<div class="space-for-text">
+											<h4>Марливая маска для ношения на улице</h4>
+											<p class="articul">Артикул: 160102470</p>
+										</div>
+										<div class="buy-product-price">5 ₽</div>
+									</a>
+									<div class="buy__buttons">
+										<button class="product__btn">В корзину</button>
+										<button class="product__like-btn"> <img src="img/svg/like.svg" alt=""></button>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" class="product__link">
+										<img src="img/products/5.png" alt="">
+										<p class="buy__products-name">МАССА-К</p>
+										<div class="space-for-text">
+											<h4>Весы с термопринтером Масса-К ПМ-32.2-Ф1</h4>
+											<p class="articul">Артикул: 16080314</p>
+										</div>
+										<div class="buy-product-price">22 300 ₽</div>
+									</a>
+									<div class="buy__buttons">
+										<button class="product__btn">В корзину</button>
+										<button class="product__like-btn"><img src="img/svg/like.svg" alt=""></button>
+									</div>
+								</article>
+							</div>
+						</details>
+						<details class="buy__dropdown-menu">
+							<summary>Новинки</summary>
+							<div id="goods" class="buy__products">
+								<article class="product">
+									<a href="#" class="product__link">
+										<img src="img/catalog/7.png" alt="">
+										<p class="buy__products-name">Атол</p>
+										<div class="space-for-text">
+											<h4>POS-система ForPOSt Супермаркет 8"Счастливый</h4>
+											<p class="articul">Артикул: 1010245</p>
+										</div>
+										<div class="buy-product-price">90 826 ₽</div>
+									</a>
+									<div class="buy__buttons">
+										<button class="product__btn">В корзину</button>
+										<button class="product__like-btn"> <img src="img/svg/like.svg" alt=""></button>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" class="product__link">
+										<img src="img/catalog/9.png" alt="">
+										<p class="buy__products-name">CAS</p>
+										<div class="space-for-text">
+											<h4>Порционные весы CAS SW-II 20</h4>
+											<p class="articul">Артикул: 160102470</p>
+										</div>
+										<div class="buy-product-price">7 472 ₽</div>
+									</a>
+									<div class="buy__buttons">
+										<button class="product__btn">В корзину</button>
+										<button class="product__like-btn"> <img src="img/svg/like.svg" alt=""></button>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" class="product__link">
+										<img src="img/catalog/8.png" alt="">
+										<p class="buy__products-name">Мурка</p>
+										<div class="space-for-text">
+											<h4>Счётчик с термопринтером Масса-К ПМ-32.2-Ф1</h4>
+											<p class="articul">Артикул: 16080314</p>
+										</div>
+										<div class="buy-product-price">22 300 ₽</div>
+									</a>
+									<div class="buy__buttons">
+										<button class="product__btn">В корзину</button>
+										<button class="product__like-btn"><img src="img/svg/like.svg" alt=""></button>
+									</div>
+								</article>
+							</div>
+						</details>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="call-me">
+			<div class="gradient">
+				<div class="_container">
+					<div class="call-me__body">
+						<h2 class="call-me__title">
+							Получите готовое решение
+							онлайн-кассы за один день!
+						</h2>
+						<p class="call-me__sub-title">Оставьте заявку и получите консультацию специалиста</p>
+						<form action="#" class="call-me__form">
+							<div class="call-me__form-row">
+								<div class="telephone-wrapper">
+									<input type="telephone" name="telephone" placeholder="Номер телефона">
+									<img src="img/svg/telephone-icon.svg" alt="">
+								</div>
+								<button type="submit" name="call-me">Позвоните мне</button>
+							</div>
+							<input id="consent" type="checkbox" name="consent" value="yes" class="consent">
+							<label class="for-consent" for="consent">Отправляя форму, я даю согласие на <span>обработку
+									персональных
+									данных</span></label>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="services">
+			<div class="_container">
+				<h2 class="services__title">
+					Услуги
+				</h2>
+				<div class="services__items">
+					<a href="#" class="services__item">
+						<img src="img/services/1.png" alt="" class="services__image">
+						<h3>Регистрация в налоговой</h3>
+						<p class="services__text">Значимость этих проблем настолько очевидна, что современная методология</p>
+						<p class="services__price">1400 ₽</p>
+						<span class="come-in">Подробнее</span>
+					</a>
+					<a href="#" class="services__item">
+						<img src="img/services/2.png" alt="" class="services__image">
+						<h3>Контрафакт ОФД на 1 год</h3>
+						<p class="services__text">Значимость этих проблем настолько очевидна</p>
+						<p class="services__price">1400 ₽</p>
+						<span class="come-in">Подробнее</span>
+					</a>
+					<a href="#" class="services__item">
+						<img src="img/services/2.png" alt="" class="services__image">
+						<h3>Контрафакт ОФД на 3 года</h3>
+						<p class="services__text">Значимость этих проблем настолько очевидна, что современная методология</p>
+						<p class="services__price">5000 ₽</p>
+						<span class="come-in">Подробнее</span>
+					</a>
+					<a href="#" class="services__item">
+						<img src="img/services/3.png" alt="" class="services__image">
+						<h3>Подключение к ОФД</h3>
+						<p class="services__text">Значимость этих проблем настолько очевидна, что современная методология</p>
+						<p class="services__price">1200 ₽</p>
+						<span class="come-in">Подробнее</span>
+					</a>
+					<a href="#" class="services__item">
+						<img src="img/services/4.png" alt="" class="services__image">
+						<h3>Подключение к ККТ</h3>
+						<p class="services__text">Значимость этих проблем настолько очевидна</p>
+						<p class="services__price">900 ₽</p>
+						<span class="come-in">Подробнее</span>
+					</a>
+					<a href="#" class="services__item">
+						<img src="img/services/5.png" alt="" class="services__image">
+						<h3>Обучение работе на ККТ</h3>
+						<p class="services__text">Значимость этих проблем настолько очевидна</p>
+						<p class="services__price">900 ₽</p>
+						<span class="come-in">Подробнее</span>
+					</a>
+					<a href="#" class="services__item">
+						<img src="img/services/6.png" alt="" class="services__image">
+						<h3>ЭЦП на носителе</h3>
+						<p class="services__text">Значимость этих проблем настолько очевидна, что современная методология</p>
+						<p class="services__price">1900 ₽</p>
+						<span class="come-in">Подробнее</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="articles">
+			<div class="articles__container _container">
+				<div class="articles__header">
+					<h2 class="articles__title">Блог или все об онлайн-кассах и не только</h2>
+					<a href="#" class="come-in">Смотреть все статьи</a>
+				</div>
+				<div class="blog-image-slider swiper-container">
+					<!-- Слайдер -->
+					<div class="blog-image-slider__wrapper swiper-wrapper">
+						<div class="blog-image-slider__slide swiper-slide">
+							<div class="blog-image-slider__image">
+								<img src="img/blog-slide-1.png" alt="Картинка">
+								<a href="#" class="blog-image-slider__text-block">
+									<span class="blog-image-slider__data">10.12.2019</span>
+									<div class="blog-image-slider__text-wrapper">
+										<h2>Масса-К меняет<br>модельный ряд</h2>
+										<p>Масса-К меняет модельный ряд. Легендарный завод по производству весового оборудования в
+										</p>
+									</div>
+									<span class="come-in">Читать далее</ы>
+								</a>
+							</div>
+						</div>
+						<div class="blog-image-slider__slide swiper-slide">
+							<div class="blog-image-slider__image">
+								<img src="img/blog-slide-2.png" alt="Картинка">
+								<a href="#" class="blog-image-slider__text-block">
+									<span class="blog-image-slider__data">10.12.2019</span>
+									<div class="blog-image-slider__text-wrapper">
+										<h2>Масса-К меняет<br>модельный ряд</h2>
+										<p>Масса-К меняет модельный ряд. Легендарный завод по производству весового оборудования в
+										</p>
+									</div>
+									<span class="come-in">Читать далее</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="blog-swiper-pagination"></div>
+			</div>
+		</div>
+		<div class="consultation">
+			<div class="gradient">
+				<div class="_container">
+					<div class="call-me__body">
+						<h2 class="call-me__title">
+							Бесплатная консультация
+						</h2>
+						<p class="call-me__sub-title">мы АБСОЛЮТНО бесплатно окажем консультацию и поможем <br> Вам выбрать
+							онлайн
+							кассу или необходимое оборудование для Вашего бизнеса</p>
+						<form action="#" class="call-me__form">
+							<div class="call-me__form-row">
+								<div class="telephone-wrapper">
+									<input type="telephone" name="telephone" placeholder="Номер телефона">
+									<img src="img/svg/telephone-icon.svg" alt="">
+								</div>
+								<button type="submit" name="call-me">Получить консультацию</button>
+							</div>
+							<input id="consent-2" type="checkbox" name="consent" value="yes" class="consent">
+							<label class="for-consent" for="consent-2">Отправляя форму, я даю согласие на <span>обработку
+									персональных
+									данных</span></label>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="sertificates">
+			<div class="_container">
+				<h2 class="sertificates__title">Мы официальные партнеры производителей кассовой техники
+					и программного обеспечения </h2>
+				<div class="space-for-slider">
+					<div class="sertificates-slider swiper-container">
+						<!-- Слайдер -->
+						<div class="sertificates-slider__wrapper swiper-wrapper">
+							<div class="sertificates-slider__slide swiper-slide">
+								<div class="sertificates-slider__image">
+									<div class="hover-image"><img src="img/svg/red-search.svg" alt=""></div>
+									<img src="img/sertificates/3.png" alt="Картинка" class="img-scale">
+								</div>
+							</div>
+							<div class="sertificates-slider__slide swiper-slide">
+								<div class="sertificates-slider__image">
+									<div class="hover-image"><img src="img/svg/red-search.svg" alt=""></div>
+									<img src="img/sertificates/2.png" alt="Картинка" class="img-scale">
+								</div>
+							</div>
+							<div class="sertificates-slider__slide swiper-slide">
+								<div class="sertificates-slider__image">
+									<div class="hover-image"><img src="img/svg/red-search.svg" alt=""></div>
+									<img src="img/sertificates/3.png" alt="Картинка" class="img-scale">
+								</div>
+							</div>
+							<div class="sertificates-slider__slide swiper-slide">
+								<div class="sertificates-slider__image">
+									<div class="hover-image"><img src="img/svg/red-search.svg" alt=""></div>
+									<img src="img/sertificates/4.png" alt="Картинка" class="img-scale">
+								</div>
+							</div>
+							<div class="sertificates-slider__slide swiper-slide">
+								<div class="sertificates-slider__image">
+									<div class="hover-image"><img src="img/svg/red-search.svg" alt=""></div>
+									<img src="img/sertificates/5.png" alt="Картинка" class="img-scale">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="slider-button-prev _sertificates__slider-button-prev"><img src="img/svg/swiper-button1.svg"
+							alt="">
+					</div>
+					<div class="slider-button-next _sertificates__slider-button-next"><img src="img/svg/swiper-button2.svg"
+							alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="special-offer">
+			<div class="_container">
+				<h2>Купить контрольно кассовый аппарат. Продажа кассового оборудования и ккт</h2>
+				<div class="special-offer__body">
+					<div class="special-offer__flex"><img src="img/special-offer.png" alt=""></div>
+					<div class="special-offer__flex">Наш интернет-магазин предлагает Вашему бизнесу различное контрольно
+						кассовое оборудование <br>
+						<br>
+						Большой выбор и низкие цены на кассовое и торговое оборудование, весовое, банковское и офисное
+						оборудование, расходные материалы к ним и многое другое. <br> <br>
+						В интернет магазине Роспоставка огромный ассортимент товаров чуть менее 10 000. У нас представлено
+						оборудование на любой бюджет, функциональные требования и т.д. <span class="red-text">Стоимость
+							контрольно кассового аппарата начинается от 4000 руб</span>
+					</div>
+					<div class="special-offer__flex">Наш магазин кассовых аппаратов предлагаетне только то или иное
+						оборудование, но и бесплатное тех.сопровождение - мы сами приедем к Вам с кассой, все настроим,
+						зарегистрируем и обучим! <br> <br>
+						Все кассовое оборудование находится у нас в наличии в г. Екатеринбурге.</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="footer-top _container">
+				<div class="footer-top__body">
+					<div class="footer__logo">
+						<img src="img/svg/logo.svg" alt="Логотип">
+					</div>
+					<div class="footer__list">
+						<h3>Каталог</h3>
+						<ul class="footer__links">
+							<li><a href="#" class="footer__link">Кассовое и торговое оборудование</a></li>
+							<li><a href="#" class="footer__link">Весовое оборудование</a></li>
+							<li><a href="#" class="footer__link">Штрих-кодирование <br> и идентификация</a></li>
+							<li><a href="#" class="footer__link">Банковское борудование</a></li>
+							<li><a href="#" class="footer__link">Программное обеспечение</a></li>
+							<li><a href="#" class="footer__link">Офисное оборудование</a></li>
+							<li><a href="#" class="footer__link">Постпечатное оборудование</a></li>
+							<li><a href="#" class="footer__link">Пищевое оборудование</a></li>
+							<li><a href="#" class="footer__link">Оборудование комплексной безопасности</a></li>
+							<li><a href="#" class="footer__link">Маски</a></li>
+						</ul>
+					</div>
+					<div class="footer__list">
+						<h3>Меню</h3>
+						<ul class="footer__links">
+							<li><a href="#" class="footer__link">О нас</a></li>
+							<li><a href="#" class="footer__link">Услуг</a></li>
+							<li><a href="#" class="footer__link">Статьи</a></li>
+							<li><a href="#" class="footer__link">Доставка</a></li>
+							<li><a href="#" class="footer__link">Отзывы</a></li>
+							<li><a href="#" class="footer__link">Розничный магазин</a></li>
+							<li><a href="#" class="footer__link">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="footer__list">
+						<h3>Контакты</h3>
+						<ul class="footer__contacts">
+							<li>
+								<div class="footer__image-wrapper"><img src="img/svg/persona.svg" alt=""></div>
+								<div class="footer__contacts-text">
+									<span>ООО: </span>Торгово-Сервисная компания <br>
+									<span>ИНН: </span>6670490827
+								</div>
+							</li>
+							<li>
+								<div class="footer__image-wrapper"><img src="img/svg/gps.svg" alt=""></div>
+								<div class="footer__contacts-text">
+									<span>Адрес офиса:</span> <br>
+									г. Екатеринбург, ул. Малышева <br>
+									д. 133 (этаж 3, офис 4)
+								</div>
+							</li>
+							<li>
+								<div class="footer__image-wrapper"><img src="img/svg/mail.svg" alt=""></div>
+								<div class="footer__contacts-text">
+									ural@ros-kkm.ru
+								</div>
+							</li>
+							<li>
+								<div class="footer__image-wrapper"><img src="img/svg/telephone.svg" alt=""></div>
+								<div class="footer__contacts-text"><span>+7 (922) 125-87-87</span></div>
+							</li>
+							<li>
+								<div class="footer__image-wrapper"><img src="img/svg/telephone.svg" alt=""></div>
+								<div class="footer__contacts-text"><span>+7 (343) 328-10-15</span></div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<span>2011 - 2020 гг. </span> Все права защищены. Предложения, представленные на сайте, не являются
+				публичной офертой.
+			</div>
+		</footer>
+	</div>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/like.js"></script>
+	<script src="js/cart.js"></script>
+</body>
+
+</html>
